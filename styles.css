@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  font-family: Poppins;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: #0b324e;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+h2 {
+  color: #0b324e;
+}
+
+section {
+  box-sizing: border-box;
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem;
+  width: 100%;
+  height: 150px;
+  background: #e4e4e4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #aeaeae
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #efefef,
+    #d9d9d9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  color: #0b324e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 400px) {
+  section {
+    padding: 1.5rem;
+  }
+  header {
+    height: 100px;
+  }
+  h1 {
+    text-align: center;
+    color: #0b324e;
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
